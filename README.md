@@ -1,8 +1,6 @@
 # facepy
 表情包制作工具，支持mp4和gif
 
-
-
 ## mp4转gif
 
 在mp4转gif的同时生成gif的帧文字序列，可以用于gif加文字
@@ -35,8 +33,9 @@ gifsicle --colors=255 beauty.gif -o tmp.gif
 gifsicle --unoptimize tmp.gif > beauty.unoptimize.gif
 ```
 ### 工具
-- ffmpeg: mp4转gif，gif转gif，不过用到九牛之一毛
-- gifsicle: gif解压缩
+- ffmpeg: mp4转gif，gif转gif。
+  ffmpeg是一个功能非常强大的音视频处理软件，此处不过用到九牛之一毛。
+- gifsicle: gif解压缩，压缩，用于解决帧信息不全问题。
 
 ### 依赖
 ```
